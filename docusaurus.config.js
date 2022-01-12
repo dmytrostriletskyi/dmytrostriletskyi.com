@@ -43,9 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Dmytro Striletskyi',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Logotype',
           src: 'img/logo.svg',
         },
         items: [
@@ -53,11 +53,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'playbook',
           },
           {
             to: '/blog',
-            label: 'Blog',
+            label: 'blog',
             position: 'left',
           },
           {
@@ -65,7 +65,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/dmytrostriletskyi/dmytrostriletskyi.com',
             label: 'GitHub',
             position: 'right',
           },
@@ -75,46 +75,61 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'more',
             items: [
               {
-                label: 'Tutorial',
+                label: 'playbook',
                 to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/dmytrostriletskyi/dmytrostriletskyi.com',
+              },
+            ],
+          },
+          {
+            title: 'author',
+            items: [
+              {
+                label: 'GitHub',
+                href: 'htps://github.com/dmytrostriletskyi/dmytrostriletskyi.com',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/dmytrostriletskyi/',
+              },
+              {
+                label: 'Medium',
+                href: 'https://dmytrostriletskyi.medium.com',
+              },
+              {
+                label: 'Habr',
+                href: 'https://habr.com/users/dmytrostriletskyi/posts',
+              },
+              {
+                label: 'DOU',
+                href: 'https://dou.ua/users/dmytrostriletskyi/articles',
+              },
+              {
+                label: 'Telegram Blog',
+                href: 'https://t.me/dmytrostriletskyi',
+              },
+              {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/channel/UCcVosFK5p425MTnWef095NQ',
+              },
+            ],
+          },
+          {
+            title: 'сontact',
+            items: [
+              {
+                label: 'dmytro.striletskyi@gmail.com',
+                to: 'mailto:dmytro.striletskyi@gmail.com',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

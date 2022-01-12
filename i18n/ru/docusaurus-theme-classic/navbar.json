@@ -1,18 +1,11 @@
 {
   "title": {
-    "message": "My Site",
-    "description": "The title in the navbar"
+    "message": "Дима Стрилецкий"
   },
-  "item.label.Tutorial": {
-    "message": "Tutorial",
-    "description": "Navbar item with label Tutorial"
+  "item.label.blog": {
+    "message": "Блог"
   },
-  "item.label.Blog": {
-    "message": "Blog",
-    "description": "Navbar item with label Blog"
-  },
-  "item.label.GitHub": {
-    "message": "GitHub",
-    "description": "Navbar item with label GitHub"
+  "item.label.playbook": {
+    "message": "Справка"
   }
 }
