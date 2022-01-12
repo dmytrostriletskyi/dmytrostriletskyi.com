@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Dmytro Striletskyi',
   tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -55,7 +55,15 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/blog',
+            label: 'Blog',
+            position: 'left',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -113,6 +121,10 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  i18n: {
+    defaultLocale: 'ru',
+    locales: ['ru', 'en'],
+  },
 };
 
 module.exports = config;
